@@ -8,7 +8,7 @@ internals of the xv6 kernel. You will add more system calls in later
 labs.
 
 Before you start coding, read Chapter 2 of
-the [xv6 book](../xv6/book-riscv-rev1.pdf), and
+the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf), and
 Sections 4.3 and 4.4 of Chapter 4, and
 related source files:
 

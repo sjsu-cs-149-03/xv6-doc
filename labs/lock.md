@@ -9,7 +9,7 @@ reduce contention. You'll do this for the xv6 memory allocator and
 block cache.
 
 Before writing code, make sure to read the following
-parts from the [xv6 book](../xv6/book-riscv-rev3.pdf) :
+parts from the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) :
 
 
 - Chapter 6: "Locking" and the corresponding code.

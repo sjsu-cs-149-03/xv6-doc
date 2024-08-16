@@ -6,7 +6,7 @@ implement switching between threads in a user-level threads package,
 use multiple threads to speed up a program, and implement a barrier.
 
 Before writing code, you should make sure you have read "Chapter 7: Scheduling" from
-the [xv6 book](../xv6/book-riscv-rev3.pdf) and studied
+the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) and studied
 the corresponding code.
 
 To start the lab, switch to the thread branch:

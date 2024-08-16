@@ -121,7 +121,7 @@ Some hints:
 
 
 - Before you start coding, read Chapter 1 of
-   the [xv6 book](../xv6/book-riscv-rev3.pdf).
+   the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf).
 
 
 - Put your code in `user/sleep.c`.

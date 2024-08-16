@@ -5,7 +5,7 @@ In this lab you will explore page tables and modify them to
 speed up certain system calls and to detect which pages have been accessed.
 
 Before you start coding, read Chapter 3 of
-the [xv6 book](../xv6/book-riscv-rev3.pdf), and related files:
+the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf), and related files:
 
 
 

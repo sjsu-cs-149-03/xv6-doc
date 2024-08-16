@@ -5,7 +5,7 @@ In this lab you will add large files and symbolic links to the xv6
 file system.
 
 Before writing code, you should read "Chapter 8:
-File system" from the [xv6 book](../xv6/book-riscv-rev3.pdf) and study the corresponding code.
+File system" from the [xv6 book](https://pdos.csail.mit.edu/6.828/2023/xv6/book-riscv-rev3.pdf) and study the corresponding code.
 
 Fetch the xv6 source for the lab and check out the `util` branch:
 
