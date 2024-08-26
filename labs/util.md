@@ -8,10 +8,19 @@ This lab will familiarize you with xv6 and its system calls.
 Have a look at the
 [lab tools page](tools.md) for setup tips.
 
+If you haven't imported the xv6 repo to your github account:
+
+From your github account, click + at the top right, choose Import Repository and set the following fields:
+
+- The URL for your source repository: https://github.com/sjsu-cs-149-03/xv6-labs.git 
+- Repository name: xv6-labs
+- Privacy: private
+- Click begin import
+
 Fetch the git repository for the xv6 source for the lab:
 
 ```
-$ git clone git@github.com:sjsu-cs-149-03/xv6-labs.git
+$ git clone git@github.com:<your-github-username>/xv6-labs.git
 Cloning into 'xv6-labs'...
 ...
 $ cd xv6-labs
@@ -106,13 +115,13 @@ the kernel will print information about each process.
 If you try it now, you'll see two lines: one for `init`,
 and one for `sh`.
 
-To quit qemu type: Ctrl-a x (press Ctrl and a at the same time, followed by x).
+> To quit qemu type: `Ctrl-a x` (press Ctrl and a at the same time, followed by x).
 
 ## sleep ([easy](guidance.md))
 
 Implement a user-level `sleep` program for xv6, along the lines
 of the UNIX sleep command. Your `sleep` should pause
-for a user-specified number of ticks. A tick is a notion of time
+for a user-specified number of `ticks`. A `tick` is a notion of time
 defined by the xv6 kernel, namely the time between two interrupts
 from the timer chip. Your solution should be in the file
 `user/sleep.c`.
@@ -203,12 +212,12 @@ Write a user-level program that uses xv6 system calls to ''ping-pong'' a
 byte between two processes over a pair of pipes, one for each
 direction.
 The parent should send a byte to the child;
-the child should print "<pid>: received ping",
-where <pid> is its process ID,
+the child should print "`<pid>`: received ping",
+where `<pid>` is its process ID,
 write the byte on the pipe to the parent,
 and exit;
 the parent should read the byte from the child,
-print "<pid>: received pong",
+print "`<pid>`: received pong",
 and exit.
 Your
 solution should be in the file `user/pingpong.c`.
