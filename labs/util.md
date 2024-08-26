@@ -8,9 +8,7 @@ This lab will familiarize you with xv6 and its system calls.
 Have a look at the
 [lab tools page](tools.md) for setup tips.
 
-If you haven't imported the xv6 repo to your github account:
-
-From your github account, click + at the top right, choose Import Repository and set the following fields:
+If you haven't imported the xv6 repo to your github account, then from your github account, click `+` at the top right, choose Import Repository and set the following fields:
 
 - The URL for your source repository: https://github.com/sjsu-cs-149-03/xv6-labs.git 
 - Repository name: xv6-labs

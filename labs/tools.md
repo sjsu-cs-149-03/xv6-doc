@@ -70,6 +70,18 @@ Finally, install QEMU:
 ```bash
 brew install qemu
 ```
+
+### Code editor setup
+
+Having a properly setup code editor will boost your efficency. Here is the recommended setup for `VSCode`:
+
+* [C/C++ extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+
+* If you use the Linux VM, then you need to setup remote development using SSH. Follow the [VSCode remote development setup](https://code.visualstudio.com/docs/remote/ssh#_getting-started) to install required extensions and connect to the Linux VM. After successfully connecting to the Linux VM, you can install the C/C++ extension.
+
+**Notes**:
+* If you can't install the C/C++ extension from your remote connection, try to install the [VSCode Insider](https://code.visualstudio.com/insiders/) instead.
+
 Testing your Installation
 -------------------------
 
