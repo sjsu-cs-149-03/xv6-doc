@@ -22,8 +22,8 @@ To start the lab, switch to the thread branch:
 
 In this exercise you will design the context switch mechanism for a
 user-level threading system, and then implement it. To get you
-started, your xv6 has two files user/uthread.c and
-user/uthread_switch.S, and a rule in the Makefile to build a uthread
+started, your xv6 has two files `user/uthread.c` and
+`user/uthread_switch.S`, and a rule in the Makefile to build a uthread
 program. uthread.c contains most of a user-level threading package,
 and code for three simple test threads.
 The threading package is missing some of the code to create a thread and to switch
